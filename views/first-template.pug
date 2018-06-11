@@ -1,0 +1,10 @@
+html
+    head
+        title Simple template
+    body
+        if(user)
+            h1 Hi, #{user.name}
+        else
+            h1 Logowanie się na innych stronach i w aplikacjach przy użyciu konta Google
+            p Swojego konta Google możesz używać do logowania się na stronach i w aplikacjach innych firm. Dzięki temu nie musisz pamiętać nazw użytkownika ani haseł do poszczególnych kont.
+            a(href="/sign_up") Sign Up
